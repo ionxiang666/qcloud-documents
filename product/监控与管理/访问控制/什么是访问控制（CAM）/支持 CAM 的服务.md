@@ -28,7 +28,6 @@
 | [弹性伸缩](https://cloud.tencent.com/document/product/377) | 资源级   | &#10003;      | -  |  &#10003;      | &#10003;    |	
 | [无服务器云函数](https://cloud.tencent.com/document/product/583/18014)  | 资源级 | &#10003;        |  -  |&#10003;        | &#10003;   |
 | [批量计算](https://cloud.tencent.com/document/product/599)  | 资源级 | &#10003;         |  -  |&#10003;        | -    |
-| [黑石 Stack-V](https://cloud.tencent.com/document/product/889/20029)  | 服务级   | &#10003;       |  -  |  -        | -    |
 
 ## 存储	
 
@@ -54,12 +53,13 @@
 
  | 服务                                                         | 授权粒度 | 控制台   | 根据标签进行授权 | 临时密钥 | 服务角色 |	
 | ------------------------------------------------------------ | ------ | --------| --------- | -------- | ---- |	
-| [云数据库 MySQL](https://cloud.tencent.com/document/product/236/14469)  | 资源级 | &#10003; | &#10003;  | &#10003; | &#10003; |	
+| [云数据库 MySQL](https://cloud.tencent.com/document/product/236/14469)  | 资源级 | &#10003; | -  | &#10003; | &#10003; |	
+| [云数据库 CynosDB](https://cloud.tencent.com/document/product/1003/38068)  | 资源级 | &#10003; | -  | &#10003; | - |	
+| [云数据库 MariaDB](https://cloud.tencent.com/document/product/237/30940)  |资源级 | &#10003;  | -    |&#10003;   | &#10003;    |
+| [分布式数据库 TDSQL](https://cloud.tencent.com/document/product/557/30965)  |资源级 | &#10003;  | -    |&#10003;   | -    |
 | [云数据库 Redis](https://cloud.tencent.com/document/product/239)   | 资源级| &#10003; | -  |&#10003; | - |
 | [云数据库 MongoDB](https://cloud.tencent.com/document/product/240) |资源级 | &#10003; | -   |&#10003; |&#10003;|
-| [云数据库 MariaDB](https://cloud.tencent.com/document/product/237/30940)  |资源级 | &#10003;  | -    |&#10003;   | &#10003;    |
 | [云数据库 Memcached](https://cloud.tencent.com/document/product/241)  |资源级 | &#10003;  | -    |&#10003;   | -    |
-| [分布式数据库 TDSQL](https://cloud.tencent.com/document/product/557/30965)  |资源级 | &#10003;  | -    |&#10003;   | -    |
 | [数据传输服务](https://cloud.tencent.com/document/product/571)  | - |  -  | -    | -   | &#10003;    |
 
 ## CDN 与加速	
@@ -164,6 +164,7 @@
  | 服务                                                         | 授权粒度  | 控制台 | 根据标签进行授权| 临时密钥 | 服务角色 |	
 | ------------------------------------------------------------ | ------ | -------- | ------ | -------- | ---- |	
 | [人脸识别](https://cloud.tencent.com/document/product/867) | 服务级| &#10003; | -  | &#10003;| - |	
+| [人脸融合](https://cloud.tencent.com/document/product/670) | 服务级| &#10003; | -  | &#10003;| - |	
 | [人脸核身](https://cloud.tencent.com/document/product/1007) | 服务级| &#10003; | -  | &#10003; | - |	
 
 ## 语音技术	
@@ -209,6 +210,7 @@
  | 服务                                                        | 授权粒度  | 控制台 | 根据标签进行授权 | 临时密钥 | 服务角色 |	
 | ------------------------------------------------------------  | ------ | -------- | ------- | -------- | ---- |	
 | [智聆口语评测](https://cloud.tencent.com/document/product/884)   | 操作级 | &#10003;  | -   | &#10003;   | -  |	
+| [题目结构化归档](https://cloud.tencent.com/document/product/1085)   | 操作级 | - | -   | &#10003;   | -  |	
 
 ## 移动服务	
 
@@ -220,7 +222,7 @@
 
  | 服务                                                         | 授权粒度 | 控制台 | 根据标签进行授权 | 临时密钥 | 服务角色 |	
 | ------------------------------------------------------------ | ------ | -------- | ----- | -------- | ---- |	
-| [短信](https://cloud.tencent.com/document/product/382) | 服务级 | &#10003; | -   | -  | -  |	
+| [短信](https://cloud.tencent.com/document/product/382) | 接口级 | &#10003; | -   | -  | -  |	
 | [语音消息](https://cloud.tencent.com/document/product/1128) | 操作级 | &#10003; | -   |-  | -  |	
 
 ## 物联网	
