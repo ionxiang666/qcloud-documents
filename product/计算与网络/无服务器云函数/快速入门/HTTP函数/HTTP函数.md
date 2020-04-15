@@ -1,3 +1,5 @@
+>? HTTP 函数功能在全新升级中，后期会开放申请使用，您可以前往 [云函数介绍页](https://cloud.tencent.com/product/scf) 来了解最新进展。
+>
 ## 操作场景
 本文档介绍了如何快速创建一个 HTTP 函数，您可通过此教程了解 HTTP 函数创建过程及云函数控制台基本操作。
 
@@ -23,7 +25,7 @@
 ![](https://main.qcloudimg.com/raw/f5758f5dc63b1527793edb3899177e43.png)
 4. 函数配置保持默认，并单击【完成】。如下图所示：
 ![](https://main.qcloudimg.com/raw/0fa5b842f20ad3a48360b94a40ca19e8.png)
-函数创建完成后，自动进入创建成功函数的“访问控制”页面，即可可查看 HTTP 函数的访问路径 URL。如下图所示：
+函数创建完成后，自动进入创建成功函数的“访问控制”页面，即可查看 HTTP 函数的访问路径 URL。如下图所示：
 ![](https://main.qcloudimg.com/raw/586eb7de3cb672c359fb9852b60d7031.png)
 
 ### 云端测试

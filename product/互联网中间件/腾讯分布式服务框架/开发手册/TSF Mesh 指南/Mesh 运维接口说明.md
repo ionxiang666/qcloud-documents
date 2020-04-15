@@ -42,7 +42,7 @@ ISTIO_REDIRECT  tcp  --  0.0.0.0/0            9.77.7.28            tcp dpt:8089
 Chain ISTIO_OUTPUT (1 references)
 target     prot opt source               destination         
 RETURN     all  --  0.0.0.0/0            0.0.0.0/0            owner UID match 1000
-DNAT       tcp  --  0.0.0.0/0            {特定ip}        to:9.77.7.28:15001
+DNAT       tcp  --  0.0.0.0/0            {特定 IP}        to:9.77.7.28:15001
 
 Chain ISTIO_REDIRECT (1 references)
 target     prot opt source               destination         
@@ -66,7 +66,7 @@ REDIRECT   tcp  --  0.0.0.0/0            0.0.0.0/0            redir ports 15001
 
 ## 本地接口
 如果在本地调用`netstat -lntp | grep 127.0.0.1`，会出现以下三个 listen 服务，分别是各个本地组件提供的运维接口的 IP 和 port。
-```
+```plaintext
 tcp        0      0 127.0.0.1:15020         0.0.0.0:*               LISTEN      5168/pilot-agent    
 tcp        0      0 127.0.0.1:15021         0.0.0.0:*               LISTEN      5261/mesh-dns       
 tcp        0      0 127.0.0.1:15000         0.0.0.0:*               LISTEN      5266/envoy
